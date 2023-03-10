@@ -1,0 +1,80 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
+  color: #333333;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.dataContainer {
+  width: 50%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 106px;
+}
+
+.backHome {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.backHome p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.peopleData {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 610px;
+}
+
+.peopleData-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.peopleData-header h1 {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+}
+
+.peopleData-header p {
+  font-weight: 400;
+}
+
+.peopleData-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 300;
+}
+
+.peopleData-body p {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.canvasContainer {
+  width: 50%;
+}
