@@ -10,8 +10,8 @@ export const Character = () => {
   )
 
   useEffect(() => {
-    gltf.scene.scale.set(1, 1, 1)
-    gltf.scene.position.set(0, -2.5, 2)
+    gltf.scene.scale.set(1.3, 1.3, 1.3)
+    gltf.scene.position.set(1, -3.5, 2.5)
     gltf.scene.traverse((obj) => {
       if (obj instanceof Mesh) {
         obj.castShadow = true

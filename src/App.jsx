@@ -1,9 +1,8 @@
-import { useRef, useState } from 'react'
+import { Suspense, useRef, useState } from 'react'
 import { easing } from 'maath'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Environment, Lightformer, PerformanceMonitor } from '@react-three/drei'
-import { Character, PeopleData } from './components'
-
+import { Character, PeopleData, Loader } from './components'
 export const App = () => {
   const [shittyPerf, degrade] = useState(false)
 
